@@ -17,3 +17,17 @@ Procedure 2:Cloning any github repository
 1. open terminal and type cd
 2. git clone "paste github repository link here without double quotes".
 3. Rest is same from point 3 referring to procedure 1.
+
+Download Links:
+https://vsd-labs.sgp1.cdn.digitaloceanspaces.com/vsd-labs/vsdsquadron_fpga_mini.zip
+
+Tools required:
+oracle virtualbox-To run the xubuntu
+https://www.oracle.com/in/virtualization/technologies/vm/downloads/virtualbox-downloads.html
+
+Logic Analyzer:
+https://ideas.saleae.com/f/changelog/
+
+Github reference repositories
+https://github.com/Skandakm29/rvce_workshop
+https://github.com/vsdip/vsdfpga_labs
