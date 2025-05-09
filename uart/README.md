@@ -1,2 +1,2 @@
 # vsd_squadron_minifpga_4
-A Verilog project for acquiring sensor data and transmitting it via UART. 
+A Verilog project for transmitting data via UART. It includes code and demo video as well.
