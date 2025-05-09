@@ -1,0 +1,43 @@
+
+icetime topological timing analysis report
+==========================================
+
+Report for critical path:
+-------------------------
+
+        lc40_4_30_4 (LogicCell40) [clk] -> lcout: 1.491 ns
+     1.491 ns net_18672 (counter[20])
+        t84 (LocalMux) I -> O: 1.099 ns
+        inmux_3_29_18614_18637 (InMux) I -> O: 0.662 ns
+        lc40_3_29_3 (LogicCell40) in0 -> lcout: 1.285 ns
+     4.537 ns net_14717 (counter_SB_DFFSR_Q_R_SB_LUT4_O_I1_SB_LUT4_O_2_I0[1])
+        t46 (LocalMux) I -> O: 1.099 ns
+        inmux_2_28_14651_14671 (InMux) I -> O: 0.662 ns
+        lc40_2_28_1 (LogicCell40) in0 -> lcout: 1.285 ns
+     7.583 ns net_10684 (counter_SB_DFFSR_Q_R_SB_LUT4_O_I1[2])
+        t41 (LocalMux) I -> O: 1.099 ns
+        inmux_1_27_10594_10635 (InMux) I -> O: 0.662 ns
+        lc40_1_27_4 (LogicCell40) in1 -> lcout: 1.232 ns
+    10.576 ns net_5618 (counter_SB_DFFSR_Q_R)
+        odrv_1_27_5618_5894 (Odrv4) I -> O: 0.649 ns
+        t37 (Span4Mux_h4) I -> O: 0.543 ns
+        t36 (Span4Mux_h4) I -> O: 0.543 ns
+        t35 (Span4Mux_h4) I -> O: 0.543 ns
+        t34 (Span4Mux_h4) I -> O: 0.543 ns
+        t33 (Span4Mux_v4) I -> O: 0.649 ns
+        t32 (LocalMux) I -> O: 1.099 ns
+        t31 (IoInMux) I -> O: 0.662 ns
+        t30 (ICE_GB) USERSIGNALTOGLOBALBUFFER -> GLOBALBUFFEROUTPUT: 1.589 ns
+        t29 (gio2CtrlBuf) I -> O: 0.000 ns
+        t28 (GlobalMux) I -> O: 0.278 ns
+    17.676 ns seg_4_28_glb_netwk_2_7
+
+Resolvable net names on path:
+     1.491 ns ..  3.252 ns counter[20]
+     4.537 ns ..  6.298 ns counter_SB_DFFSR_Q_R_SB_LUT4_O_I1_SB_LUT4_O_2_I0[1]
+     7.583 ns ..  9.345 ns counter_SB_DFFSR_Q_R_SB_LUT4_O_I1[2]
+    10.576 ns .. 11.225 ns counter_SB_DFFSR_Q_R
+
+Total number of logic levels: 4
+Total path delay: 17.68 ns (56.58 MHz)
+
