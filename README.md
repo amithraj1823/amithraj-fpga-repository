@@ -1,7 +1,7 @@
 # Amithraj-fpga-repository
 
 Procedure to view the results:
-Procedure 1: When you are using from the device
+Procedure 1: When you are using the project files from the device
 1. Navigate to the folder where your project contains.
 2. Open the terminal.
 3. Ensure the correct directory is added.
