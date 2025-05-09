@@ -1,0 +1,3 @@
+set_io  red_led 39
+set_io  blue_led 41
+set_io inp 27  
