@@ -28,6 +28,6 @@ https://www.oracle.com/in/virtualization/technologies/vm/downloads/virtualbox-do
 Logic Analyzer:
 https://ideas.saleae.com/f/changelog/
 
-Reference Github reference repositories
+Reference Github repositories
 1. https://github.com/Skandakm29/rvce_workshop
 2. https://github.com/vsdip/vsdfpga_labs
